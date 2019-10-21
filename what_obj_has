@@ -1,0 +1,17 @@
+1.  create a file named section.c which is same as example
+2.  gcc -c section.c
+3.  objdump -h section.o (-h:check sections this file has)
+4.  objdump -s -d section.o (-s:print all infomation in every section and -d:disassembly)
+
+in .o:
+    elf header
+    
+    .text           readonly/no copy/
+    
+    .data           initialized global variables and local static variables
+    
+    .bss
+    ...
+    
+    
+    
